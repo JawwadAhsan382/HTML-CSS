@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(34, 31, 31);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#a1{
+    text-align: center;
+    color: aliceblue;
+}
+#a2{
+    color: rgb(255, 31, 31);
+    font-size: x-large;
+}
+#a3{
+    color: rgb(18, 207, 207);
+    font-size: x-large;
+}
+#a4{
+    background-color: aliceblue;
+    color: rgb(34, 31, 31);
+    width: 30%;
+}
+#a5{
+    background-color: rgb(238, 140, 29);
+    color: aliceblue;
+    width: 20%;
+}
+#a6{
+    background-color: rgb(255, 31, 31);
+    color: aliceblue;
+    width: 20%;
+}
+#a7{
+    background-color: rgb(18, 207, 207);
+    color: aliceblue;
+    width: 20%;
+}
+.tick{
+    color: rgb(238, 140, 29);
+    text-align: center;
+    font-size: x-large;
+}
+.cen{
+    text-align: center;
+}
+ table,th,td{
+    border: 1px solid whitesmoke;
+    color: aliceblue;
+    border-collapse: collapse;
+ }
+ table{
+    margin: auto;
+    width: 60%;
+ }
+ th,td{
+    height: 40px;
+ }
+button{
+    background-color: rgb(255, 31, 31);
+    border-radius: 15px;
+    border: 0px;
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 7pt;
+    width: 60%;
+    height: 25px;
+}
+td:hover{
+    background-color: aliceblue;
+    color: #000;
+    transform: scale(1.1);
+    transition: 2s;
+}
+button:hover{
+    background-color: aqua;
+    color: #000;
+    transform: scale(1.1);
+    transition: 2s;
+}
+h2{
+    color: aliceblue;
+}

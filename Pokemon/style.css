@@ -1,0 +1,114 @@
+#nav1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-color: rgb(200, 204, 207);
+    border-style: solid;
+    border-width: 1.5px 0px 3px 0px;
+}
+.div123{
+    padding: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+   align-content: center;
+   width: 6%;
+}
+.div1{
+    margin: 0px 5px 0px 5px;
+    background-color: white;
+    box-shadow: 2px 0px 5px -2px rgb(0, 0, 0),-2px 0px 5px -2px rgb(0, 0, 0);
+}
+.div2,.div3{
+    border-color: rgb(200, 204, 207);
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+}
+.div4{
+    padding: 5px;
+    align-content: center;
+    width: 45%;
+}
+
+#nav2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    position: sticky;
+    top: -35px;
+}
+.n2div1234567{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 9.5%;
+    text-align: center;
+    align-content: space-between;
+    position: relative;
+    top: 5px;
+}
+.n2div1{
+    background-color: rgb(109, 115, 120);
+    color: white;
+    border-radius: 0px 0px 0px 5px;
+}
+.n2div2{
+    border-bottom: 5px solid rgb(228, 47, 47);
+    color: rgb(109, 115, 120);
+}
+.n2div3{
+    border-bottom: 5px solid rgb(237, 99, 13);
+    color: rgb(109, 115, 120);
+}
+.n2div4{
+    border-bottom: 5px solid rgb(222, 244, 19);
+    color: rgb(109, 115, 120);
+}
+.n2div5{
+    border-bottom: 5px solid rgb(51, 250, 81);
+    color: rgb(109, 115, 120);
+}
+.n2div6{
+    border-bottom: 5px solid rgb(27, 206, 219);
+    color: rgb(109, 115, 120);
+}
+.n2div7{
+    border-bottom: 5px solid rgb(25, 77, 247);
+    border-radius: 0px 0px 5px 0px;
+    color: rgb(109, 115, 120);
+}
+.n2div2:hover{
+    background-color: rgb(228, 47, 47);
+    transition: 500ms;
+    color: white;
+}
+.n2div3:hover{
+    background-color: rgb(237, 99, 13);
+    transition: 500ms;
+    color: white;
+}
+.n2div4:hover{
+    background-color: rgb(222, 244, 19);
+    transition: 500ms;
+    color: white;
+}
+.n2div5:hover{
+    background-color: rgb(51, 250, 81);
+    transition: 500ms;
+    color: white;
+}
+.n2div6:hover{
+    background-color: rgb(27, 206, 219);
+    transition: 500ms;
+    color: white;
+}
+.n2div7:hover{
+    background-color: rgb(25, 77, 247);
+    transition: 500ms;
+    color: white;
+}

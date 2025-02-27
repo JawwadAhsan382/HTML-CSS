@@ -1,0 +1,75 @@
+#grad1{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: linear-gradient(red 10%,red,white  90%,white);
+   border: 1px solid black;
+}
+#grad2{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: linear-gradient(to right,red ,rgb(163, 230, 40) );
+   border: 1px solid black;
+}
+#grad3{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: linear-gradient(to bottom right,red,white);
+   border: 1px solid black;
+}
+#grad4{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: linear-gradient(225deg,red,white);
+   border: 1px solid black;
+}
+#grad5{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: repeating-linear-gradient(to bottom left,red 0%,red 10%, yellow 10%, yellow 20%);
+   border: 1px solid black;
+}
+#grad6{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: repeating-linear-gradient(to bottom left,red 10%, yellow 20%);
+   border: 1px solid black;
+}
+#grad7{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: radial-gradient(red 0%,red 10%,yellow 10%, yellow 20%);
+   border: 1px solid black;
+}
+#grad8{
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+   align-content: center;
+   background-image: repeating-radial-gradient(circle,black 0%,black 2.5%,yellow 2.5%,yellow 5%,black 5%,black 7.5%,rgb(253, 49, 49)7.5%,rgb(253, 49, 49) 10%);
+   border: 1px solid black;
+}
+body{
+    background-image: repeating-radial-gradient(circle,black 0%,black 2.5%,yellow 2.5%,yellow 5%,black 5%,black 7.5%,rgb(253, 49, 49)7.5%,rgb(253, 49, 49) 10%);
+}

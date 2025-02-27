@@ -1,0 +1,231 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+#navigate{
+    background-color: rgba(63, 56, 56, 0.8);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+nav{
+    margin: auto;
+    width: 80%;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.p1{
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 90vh;
+    margin-top: -20px;
+    margin-left: -10px;
+    background-image: url(https://www.apple.com/v/iphone-16-pro/c/images/overview/welcome/hero_endframe__b3cjfkquc2s2_xlarge.jpg);
+    background-size: cover;
+    line-height: 20px;
+}
+.p2{
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-image: linear-gradient(rgb(15, 20, 75) ,rgb(208, 223, 249));
+    line-height: 20px;
+}
+.p3{
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-color: black;
+    line-height: 20px;
+}
+.p4{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 100vw;
+    height: 225vh;
+}
+.d1to6{
+    background-color: whitesmoke;
+    width: 48%;
+    height: 33%;
+    text-align: center;
+    line-height: 10px;
+}
+.d1{
+    background-image: url(./Capture_1-removebg-preview.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.d2{
+    background-image: url(./Capture_2-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+} 
+.d3{
+    background-color: black;
+    color: white;
+    background-image: url(./Capture3-removebg-preview.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.d4{
+    background-image: url(./Capture4-removebg-preview.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.d5{
+    background-image: url(./Capture5-removebg-preview.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.d6{
+    background-image: url(./Capture6-removebg-preview.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.b1{
+    background-color: rgb(31, 112, 234);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+}
+.b2{
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid rgb(31, 112, 234);
+    border-radius: 20px;
+    color: rgb(31, 112, 234);
+    padding: 10px;
+    width: 60px;
+}
+.b3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    width: 100px;
+}
+.b4{
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 60px;
+}
+.b5{
+    background-color: rgb(31, 112, 234);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+}
+.b6{
+    background-color: rgba(0, 0, 255, 0);
+    border: 1px solid rgb(31, 112, 234);
+    border-radius: 20px;
+    color: rgb(31, 112, 234);
+    padding: 10px;
+    width: 90px;
+}
+.b7{
+    background-color: rgb(31, 112, 234);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 150px;
+}
+.b8{
+    background-color: rgb(31, 112, 234);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+}
+#pgrad1{
+    display: inline-block;
+    background: linear-gradient(to right, #3798e8,#7f3ddd, #f450c6, #f58032); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 13pt;
+}
+.headi1{
+    font-size: 30pt;
+}
+.headi2{
+    font-size: 18pt;
+}
+.headi22{
+    font-size: 14pt;
+    line-height: 20px;
+}
+.para1{
+    font-size: 13pt;
+    color: rgb(153, 153, 153);
+}
+.para2{
+    color: rgb(153, 153, 153);
+}
+.checki{
+    padding: 0px 170px 0px 170px;
+}
+.checki1{
+    padding: 0px 150px 0px 150px;
+}
+.checki2{
+    padding: 0px 100px 0px 100px;
+}
+.b1:hover{
+    background-color: #0f81c7;
+}
+.b5:hover{
+    background-color: #0f81c7;
+}
+.b7:hover{
+    background-color: #0f81c7;
+}
+.b8:hover{
+    background-color: #0f81c7;
+}
+.b2:hover{
+    background-color: rgb(31, 112, 234);
+    color: white;
+}
+.b6:hover{
+    background-color: rgb(31, 112, 234);
+    color: white;
+}
+.b4:hover{
+    background-color: white;
+    color: black;
+}
+.hov:hover{
+    color: rgb(173, 173, 173);
+    cursor: pointer;
+}

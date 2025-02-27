@@ -1,0 +1,154 @@
+.bod{
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+ }
+ .main{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .green{
+    background-color: rgb(46, 225, 64);
+    width: 40%;
+    height: 40%;
+    align-content: center;
+ }
+ .yellowsmall{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .yellow{
+    background-color: rgb(232, 243, 24);
+    width: 40%;
+    height: 40%;
+    align-content: center;
+ }
+ .greensmall{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .bluesmall{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .red{
+    background-color: rgb(240, 24, 53);
+    width: 40%;
+    height: 40%;
+    align-content: center;
+ }
+ .redsmall{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+ .blue{
+    background-color: rgb(40, 94, 241);
+    width: 40%;
+    height: 40%;
+    align-content: center;
+ }
+ .white{
+    background-color: white;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+ }
+ .greensmaller{
+    background-color: rgb(46, 225, 64);
+    width: 38%;
+    height: 38%;
+ }
+ .yellowsmaller{
+    background-color: rgb(232, 243, 24);
+    width: 38%;
+    height: 38%;
+ }
+ .redsmaller{
+    background-color: rgb(240, 24, 53);
+    width: 38%;
+    height: 38%;
+ }
+ .bluesmaller{
+    background-color: rgb(40, 94, 241);
+    width: 38%;
+    height: 38%;
+ }
+ .whitesmallest{
+    width: 33.33%;
+    height: 16.66%;
+    background-color: black;
+    align-content: center;
+ }
+ .whitesmallest1{
+    width: 16.66%;
+    height: 33.33%;
+    background-color: black;
+    align-content: center;
+ }
+ .black{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+ }
+ .redsmallest{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(240, 24, 53);
+    margin: auto;
+ }
+ .greensmallest{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(46, 225, 64);
+    margin: auto;
+ }
+ .bluesmallest{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(40, 94, 241);
+    margin: auto;
+ }
+ .yellowsmallest{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(232, 243, 24);
+    margin: auto;
+ }
+ .center{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+ }
+ span{
+    display: inline-block;
+    border-bottom: 50px solid rgb(240, 24, 53);
+    border-right: 50px solid rgb(40, 94, 241);
+    border-top: 50px solid rgb(232, 243, 24);
+    border-left: 50px solid rgb(46, 225, 64);
+ }

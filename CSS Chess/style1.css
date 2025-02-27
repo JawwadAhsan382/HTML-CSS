@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(37, 33, 33);
+ }
+ .main{
+    align-content: center;
+    margin: auto;
+    background-color: azure;
+    width: 500px;
+    height: 500px;
+ }
+ .submain{
+    margin: auto;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .white, .black{
+    width: 12.5%;
+    height: 12.5%;
+    text-align: center;
+    align-content: center;
+
+ }
+ .white{
+    background-color: azure;
+ }
+ .black{
+    background-color: black;
+ }
